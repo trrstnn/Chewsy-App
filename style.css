@@ -1,0 +1,3 @@
+.first-name-field:invalid {
+    border: 1px solid red;
+  }
