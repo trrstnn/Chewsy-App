@@ -59,10 +59,16 @@ s
   
    
  }
- #mc_embed_signup_scroll {
-   height:390px;
+ #mc_embed_signup {
+   height:600px;
    text-align:center;
+   background: #fff;
+   clear: left;
+   font: 14px Helvetica, Arial, sans-serif;
+   border: 1px solid;
    
+  
+
  }
 
   /* --------------------
