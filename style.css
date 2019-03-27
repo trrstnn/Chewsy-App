@@ -1,9 +1,7 @@
 .first-name-field:invalid {
     border: 1px solid red;
   }
-body {
-  background-color:beige;
-}
+
 /* --------------------
         Navbar
  ---------------------*/
@@ -19,9 +17,10 @@ body {
     padding: 0px;
   }
   .navbar-brand>img {
-    height: 100%;
-    width: auto;
-    padding: 1px 14px 30px 14px;
+    max-height:80px;
+    max-width: 80px;
+    /* padding: 1px 14px 30px 14px; */
+   
   }
   #navbar a {
     color:black;
@@ -29,9 +28,10 @@ body {
   
   
   .navbar{
-    margin-bottom: 70px;
-    background-color:grey;
-    height:70px;
+    margin-bottom: 100px;
+    height:90px;
+    
+    
   }
   .navbar-nav li a {
     padding: 30px 5px 15px 5px;
@@ -40,13 +40,12 @@ body {
 .navbar-toggler-icon{
   background-image: url("./assets/gummy-bear.png");
 }
+
 #submitnav ul li a{
   color:black;
 }
 
-#submitnav {
- visibility: hidden;
-}
+s
 /* .navbar-brand img {
   max-width:20px;
   max-height:20px;
@@ -57,7 +56,7 @@ body {
  #header-form {
    display: flex;
    flex-direction: row;
-   margin-bottom:80px;
+  
    
  }
  #mc_embed_signup_scroll {
@@ -71,9 +70,11 @@ body {
  ---------------------*/
 
  .carousel-inner > .carousel-item > img {
-  width:640px;
-  height:450px;
+  width:100%;
+  height:100%;
+  margin-bottom:100px;
 }
+
 .first-name-field:invalid {
   border: 1px solid red;
 }
@@ -133,4 +134,31 @@ SVG Icons - svgicons.sparkk.fr
   #mailchimp {
     visibility: hidden;
   }
+}
+@media only screen and (max-width: 992px) {
+  .testimonial-image {
+      width: 200px;
+      height: auto;
+      border-radius: 200px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+  .testimonial-image {
+      width: 150px;
+      height: auto;
+      border-radius: 150px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+  .testimonial-image {
+      width: 250px;
+      height: auto;
+      border-radius: 250px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
 }
