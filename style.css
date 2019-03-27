@@ -101,8 +101,18 @@ blockquote {
   list-style: none;
 }
 
-.footer > .container > ul > li {
+.footer > 
+.container >  
+.row >
+.col >
+.footer >
+ li {
   display: inline-block;
+}
+
+.footer-icon {
+    width: 30px;
+    height: auto;
 }
 
 /* -----
@@ -135,30 +145,31 @@ SVG Icons - svgicons.sparkk.fr
     visibility: hidden;
   }
 }
+
 @media only screen and (max-width: 992px) {
-  .testimonial-image {
-      width: 200px;
-      height: auto;
-      border-radius: 200px;
-    }
-}
+    .testimonial-image {
+        width: 200px;
+        height: auto;
+        border-radius: 200px;
+      }
+  }
 
-@media only screen and (max-width: 770px) {
-  .testimonial-image {
-      width: 150px;
-      height: auto;
-      border-radius: 150px;
-    }
-}
+  @media only screen and (max-width: 770px) {
+    .testimonial-image {
+        width: 150px;
+        height: auto;
+        border-radius: 150px;
+      }
+  }
 
-@media only screen and (max-width: 575px) {
-  .testimonial-image {
-      width: 250px;
-      height: auto;
-      border-radius: 250px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
-    }
-}
+  @media only screen and (max-width: 575px) {
+    .testimonial-image {
+        width: 250px;
+        height: auto;
+        border-radius: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+  }
