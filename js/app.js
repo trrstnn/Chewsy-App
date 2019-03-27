@@ -2,12 +2,12 @@ console.log('javascript works')
 
 $(document).ready(function() {
   $('.quote-one').quovolver({
-    autoPlaySpeed : 10000
+    autoPlaySpeed : 5050
   });
   $('.quote-two').quovolver({
-    autoPlaySpeed : 10000
+    autoPlaySpeed : 6000
   });
   $('.quote-three').quovolver({
-    autoPlaySpeed : 10000
+    autoPlaySpeed : 7000
   });
 });
