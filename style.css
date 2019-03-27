@@ -100,8 +100,18 @@ blockquote {
   list-style: none;
 }
 
-.footer > .container > ul > li {
+.footer > 
+.container >  
+.row >
+.col >
+.footer >
+ li {
   display: inline-block;
+}
+
+.footer-icon {
+    width: 30px;
+    height: auto;
 }
 
 /* -----
