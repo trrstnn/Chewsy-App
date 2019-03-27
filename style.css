@@ -41,11 +41,16 @@
   background-image: url("./assets/gummy-bear.png");
 }
 
-#submitnav ul li a{
-  color:black;
+#submitnav  a{
+  color:red;
+ 
+
 }
 
-s
+.navbar ul li img {
+  max-width: 30px;
+  max-height: 30px;
+}
 /* .navbar-brand img {
   max-width:20px;
   max-height:20px;
@@ -60,7 +65,7 @@ s
    
  }
  #mc_embed_signup {
-   height:600px;
+   height:550px;
    text-align:center;
    background: #fff;
    clear: left;
@@ -69,6 +74,23 @@ s
    
   
 
+ }
+ #mc_embed_signup input {
+  margin:30px;
+  width:80%;
+  border-radius: 5px;
+   
+ }
+ #mc_embed_signup {
+  padding:30px;
+ }
+ #mc_embed_signup h2 {
+   color: rgb(175, 192, 62);
+   font-weight:bold;
+ }
+.button {
+   background-color:orange;
+   padding:10px;
  }
 
   /* --------------------
